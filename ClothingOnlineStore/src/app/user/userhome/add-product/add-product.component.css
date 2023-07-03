@@ -1,0 +1,17 @@
+form {
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.margin-t10{
+  margin-top: 20px;
+}
+
+.demo-full-width{
+  width: 100%;
+}
+
+.label-color{
+  background-color: #003366 !important;
+    color:white;
+}

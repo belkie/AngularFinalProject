@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$BsYqk2wHFX8hmY9gNywQmene0tK6B2fDZ5TtKjosZ2oF6L2DozYMG",
+      "username": "Johnson",
+      "type": "user",
+      "id": 1,
+      "isAdmin": false
+    },
+    {
+      "email": "bell@gmail.com",
+      "password": "$2a$10$5DO5NtGepHBC0ySMaD4V6.zoUboaZpyj8weuyz5IFDqFQJH8vwWQ6",
+      "username": "Bellcy",
+      "type": "Admin",
+      "id": 15,
+      "isAdmin": true
+    },
+    {
+      "email": "mons@gmail.com",
+      "password": "$2a$10$ZyXICY44lYbE.FSBdphAgeo1NCbcC01P1Naklltk7ZcTSPQPTHt3y",
+      "username": "Moni",
+      "type": "user",
+      "id": 17,
+      "isAdmin": false
+    },
+    {
+      "email": "jeni@gmail.com",
+      "password": "$2a$10$vEo905cNqvVs23HU0h/Ik.yYBpmjcrxQ9bJB1PNy8iuGQifoU5Uxm",
+      "username": "jenii",
+      "type": "user",
+      "id": 18
+    }
+  ],
+  "category": [
+    "Women",
+    "Men",
+    "Kid"
+  ],
+  "products": [
+    {
+      "name": "Kurta",
+      "image": "kurti.jpg",
+      "description": "Pure cotton Kurti",
+      "type": "Women",
+      "price": "790",
+      "quantity": "3",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Dresses",
+      "type": "Women",
+      "price": 1890,
+      "image": "dress.jpg",
+      "description": "Cute Dresses Women Casual Plus Size Solid Cotton Linen Sleeveless Summer Dress with Pocket Teen Girls Mini Swing Dress",
+      "quantity": 5
+    },
+    {
+      "id": 7,
+      "name": "Western Dress",
+      "type": "Women",
+      "price": 1500,
+      "image": "pinkie.jpg",
+      "description": "Women's Red Color Organza Western Dress - Phenav - Red ",
+      "quantity": 7
+    },
+    {
+      "id": 12,
+      "name": "Red Saree",
+      "type": "Women",
+      "price": 3000,
+      "image": "saree.jpg",
+      "description": "Red Saree",
+      "quantity": 7
+    },
+    {
+      "id": 13,
+      "name": "Tank Top",
+      "type": "Women",
+      "price": 800,
+      "image": "tanktop.jpg",
+      "description": "Women's white tank top",
+      "quantity": 4
+    },
+    {
+      "id": 13,
+      "name": "Red pleated Skirt",
+      "type": "Women",
+      "price": 1240,
+      "image": "croptop.jpg",
+      "description": "women's white corset crop top and red pleated mini skirt outfit",
+      "quantity": 10
+    },
+    {
+      "id": 14,
+      "name": "Wedding Gown",
+      "type": "Women",
+      "price": 120000,
+      "image": "gown.jpg",
+      "description": "White wedding Gown",
+      "quantity": 8
+    },
+    {
+      "id": 15,
+      "name": "Blazzer Suit",
+      "type": "Men",
+      "price": 53000,
+      "image": "blazzer.jpg",
+      "description": "Men with navy blue Blazzer suit",
+      "quantity": 7
+    },
+    {
+      "id": 16,
+      "name": "Casual Shirt",
+      "type": "Men",
+      "price": 3500,
+      "image": "casual.jpg",
+      "description": "Men with casual shirt and pant",
+      "quantity": 3
+    },
+    {
+      "id": 18,
+      "name": "Denim Shirt",
+      "type": "Men",
+      "price": 2500,
+      "image": "denim.jpg",
+      "description": "Denim shirt",
+      "quantity": 5
+    },
+    {
+      "id": 19,
+      "name": "T-Shirt",
+      "type": "Men",
+      "price": 980,
+      "image": "tshirt.jpg",
+      "description": "Men Tshirt",
+      "quantity": 8
+    },
+    {
+      "id": 20,
+      "name": "Veshti shirt",
+      "type": "Kid",
+      "price": 730,
+      "image": "salwar.jpg",
+      "description": "Boy with vesti and shirt",
+      "quantity": 4
+    },
+    {
+      "id": 21,
+      "name": "Dress",
+      "type": "Kid",
+      "price": 500,
+      "image": "frok.jpg",
+      "description": "Cute girl with beautiful dress",
+      "quantity": 7
+    },
+    {
+      "id": 23,
+      "name": "Mini Frok",
+      "type": "Kid",
+      "price": 1200,
+      "image": "minifrok.jpg",
+      "description": "Mini Frok",
+      "quantity": 3
+    },
+    {
+      "name": "Casual outfit",
+      "image": "boykid.jpg",
+      "description": "Boy kid with casual outfit",
+      "type": "Kid",
+      "price": "1460",
+      "quantity": 9,
+      "id": 24
+    }
+  ],
+  "carts": [
+    {
+      "productId": 12,
+      "name": "Red Saree",
+      "price": 3000,
+      "description": "Red Saree",
+      "type": "Women",
+      "image": "saree.jpg",
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}

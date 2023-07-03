@@ -1,0 +1,22 @@
+<div id="Productdetails-container">
+    <div id="image-block">
+        <img src="http://localhost:86/{{cart.image}}">
+    </div>
+    <div id="description-block">
+       <h3>Name: {{cart.name}}</h3>
+       <h3>
+          Description: {{cart.description}}
+       </h3>
+       <h2>
+            Price: {{cart.price | currency: 'INR'}}
+       </h2>
+         Quantity <input type="number" [(ngModel)]="cart.quantity"  min="1" max="5"/>
+        <br>
+            <button class="btn btn-primary" (click)=addtocart()>Add to cart</button>
+        <br>
+    </div>
+</div>
+<router-outlet></router-outlet>
+
+
+
