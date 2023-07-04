@@ -174,26 +174,5 @@
       "id": 24
     }
   ],
-  "carts": [
-    {
-      "productId": 7,
-      "name": "Western Dress",
-      "price": 4500,
-      "description": "Women's Red Color Organza Western Dress - Phenav - Red ",
-      "type": "Women",
-      "image": "pinkie.jpg",
-      "quantity": 3,
-      "id": 1
-    },
-    {
-      "productId": 7,
-      "name": "Western Dress",
-      "price": 1500,
-      "description": "Women's Red Color Organza Western Dress - Phenav - Red ",
-      "type": "Women",
-      "image": "pinkie.jpg",
-      "quantity": 1,
-      "id": 2
-    }
-  ]
+  "carts": []
 }

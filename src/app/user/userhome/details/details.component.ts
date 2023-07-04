@@ -97,7 +97,7 @@ export class DetailsComponent implements OnInit {
         }
       }
       else{
-        this.cart.price = this.cart.price * this.cart.quantity;
+        this.cart.price = (this.cart.price * this.cart.quantity);
         this.cartService.addToCart({model: this.cart}).subscribe(res => {
           this._snackBar.open(`${this.cart.name} is added to cart`,'Ok',{duration: 2 * 1000});
           this.router.navigate(['/user/home'])
