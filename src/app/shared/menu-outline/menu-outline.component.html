@@ -1,0 +1,34 @@
+<div>
+  <mat-toolbar class="menu-bar">
+    <span class="title">{{ 'dressStore'| translate }} </span>
+
+    <span class="example-spacer"></span>
+    <span class="user-detail label-position"> {{"welcome" | translate}} {{ userService.loggedUserDetails.username }}</span>
+    <span *ngIf="userService.loggedUserDetails.isAdmin" class="user-with-write-access"></span>
+    <span *ngIf="!userService.loggedUserDetails.isAdmin" class="user-with-read-access"></span>
+    <button class="example-icon"  mat-icon-button   [routerLink]="'/user/home'" >
+      <mat-icon>home</mat-icon>
+    </button>
+
+    <button class="example-icon"  mat-icon-button [matMenuTriggerFor]="menu" >
+      <mat-icon>language</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="setLanguage('en')">
+        <span>English</span>
+      </button>
+      <button mat-menu-item (click)="setLanguage('hindi')">
+        <span>Hindi</span>
+      </button>
+    </mat-menu>
+    <button class="example-icon" mat-icon-button   [routerLink]="'/cart'" *ngIf="!userService.loggedUserDetails.isAdmin">
+      <mat-icon [matBadge]="cartSerive.cartItemsTotal" *ngIf="cartSerive.cartItemsTotal">shopping_cart</mat-icon>
+      <mat-icon  *ngIf="!cartSerive.cartItemsTotal">shopping_cart</mat-icon>
+    </button>
+
+    <button class="example-icon" mat-icon-button   [routerLink]="'/login'" >
+      <mat-icon>logout</mat-icon>
+    </button>
+
+  </mat-toolbar>
+</div>

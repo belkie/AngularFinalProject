@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    background-color: #ffffb3;
+  }
+
+.mat-column-price{
+    width: 8%;
+  }
+
+.mat-column-type{
+  width: 8%;
+}
+
+.mat-column-name{
+  width: 10%;
+}
+  
+.mat-column-id{
+    width: 5%;
+  }
+.label-color {
+    color: #003366 !important;
+}
+  
+.mat-header-cell{
+  font-size: 15px;
+  color: navy;
+}

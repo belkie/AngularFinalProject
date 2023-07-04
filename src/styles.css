@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+html,
+body {
+  height: 100%;
+  
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #ffffb3;
+}
+
+
+
+.mat-icon{
+  font-family: 'Material Icons' !important;
+  font-size: 27px;
+  line-height: 40px;
+}
+
+.mat-icon-button{
+  width: 100px;
+}

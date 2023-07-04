@@ -1,0 +1,14 @@
+{
+    "categories": "श्रेणियाँ",
+    "dressStore" : "पोशाक की दुकान",
+    "serialNo": "सीरीयल नम्बर.",
+    "productName": "प्रोडक्ट का नाम",
+    "productImage": "उत्पाद का चित्र",
+    "description": "विवरण",
+    "type": "प्रकार",
+    "price": "कीमत",
+    "quantity": "मात्रा",
+    "action": "कार्य",
+    "welcome": "स्वागत"
+  }
+  

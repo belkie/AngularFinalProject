@@ -1,0 +1,29 @@
+<div class="row justify-content-between">
+  <div class=" col-md-2" style="margin: 10px 0px 10px 10px">
+    <mat-form-field class="cat" >
+      <mat-select [(ngModel)]="selected" id="category"  placeholder="{{'categories'}}">
+        <mat-option *ngFor="let x of types"  [value]="x">{{x}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="col-md-4" *ngIf="userService.loggedUserDetails.isAdmin">
+    <div style="position: relative;">
+      <div style="position: absolute;right: 15px;top:15px">
+        <button mat-raised-button class="float-right label-color" [routerLink]="['/user/home/add-product']">
+          Add Item to store
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" *ngIf="!userService.loggedUserDetails.isAdmin">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" *ngFor="let x of products| typefilter:selected">
+    <app-product  [product]="x" (updateProductList)="updateProductList($event)"></app-product>
+  </div>  
+</div>
+<div class="row" *ngIf="userService.loggedUserDetails.isAdmin">
+  <div class="col-12 " >
+    <app-product-grid [filter]="selected"></app-product-grid>
+  </div>
+</div>
+
